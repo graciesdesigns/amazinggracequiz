@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="cssquiz3.css" rel="stylesheet">
+    
+<body>
+<title>AGQ: Level 1</title>
+<script  src="script.js"></script>
+<em><center><h2>The Amazing Grace Quiz</h2></center></em>
+<center>
+<h1>Level 1:<br> EASY QUESTIONS</h1>
+<hr>
+<form>
+<b><spam>1) Who's Grace's favorite music artist? (more than one)</spam></b><br>
+<label for="set1">Beyonce</label>
+    <input type="checkbox">
+    <br>
+        <label for="set2">Ariana Grande</label>
+         <input type="checkbox" value="nicesinger" name="ariana" id="ariana">
+                <br>
+        <label for="set3">Mitski</label>
+        <input type="checkbox" value="singer" name="mitski" id="correctMitski"><br>
+       
+         <label for="set4">Tems</label>
+         <input type="checkbox" value="band" name="smiths" id="smiths">
+         <script>
+            console.log('Start interaction.')
+            onEvent("correctMitski", "click", function(){
+                setProperty("correctMitski","text","Correct!");
+            }
+         </script>
+<hr>
+</script>
+<b><spam>2) Grace's favorite shows at the moment?</spam></b><br>
+    <label for="set2.1">One Tree Hill</label>
+        <input type="checkbox" value="bestshoweva"><br>
+    <label for="set2.2">Cobra Kai</label>
+        <input type="checkbox" value="childish" id="ck" name="ck"><br>
+    <label for="set2.3">Breaking Bad</label>
+        <input type="checkbox" value="usedtobe" id="tflash" name="tflash"><br>
+            <label for="set2.4">Gilmore Girls</label>
+        <input type="checkbox" value="secondbestshoweva" id="gg" name="gg">
+    <hr>
+    <b><span>3) What is Grace's number 1 anime?</span><br></b>
+    <label for="set3.1">Banana Fish</label>
+    <input type="radio" value="favorite" name="bf" id="bf"><br>
+    <label for="set3.2">Attack on Titan</label>
+    <input type="radio" value="no" name="tg" id="tg"><br>
+    <label for="set3.3">Haikyuu</label>
+    <input type="radio" value="bffr" name="comeonnow:/" id="haikyuu">
+    <hr>
+    <b><span>4) What is Grace's favorite meal?</span></b><br>
+    <label for="set3.4">Egusi Soup</label>
+        <input type="radio" value="close"><br>
+    <label for="set2.2">Jollof Rice</label>
+        <input type="radio" value="yesthisisit" id="jr" name="jr"><br>
+    <label for="set2.3">Rice and Stew</label>
+        <input type="radio" value="usedtobe" id="ras" name="ras"><br>
+            <label for="set2.4">Alfredo Pasta</label>
+        <input type="radio" value="yum" id="ap" name="ap">
+</form> 
+    <hr>
+    <br>
+<form action="quizPage3.html">
+    <input type="submit" value="Level 2">
+</form>
+</center>
+
+</form>
+</body>
+</head>
+</html>
