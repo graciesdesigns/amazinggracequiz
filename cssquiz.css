@@ -1,4 +1,14 @@
-h1{color:antiquewhite}
-body{background-color: deeppink;}
-h1{font-family:Arial, Helvetica, sans-serif}
+h1{
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  font-size: 40px;
+}
+body{
+    background-color: deeppink;
+}
 h2{font-family:cursive; color:greenyellow}
