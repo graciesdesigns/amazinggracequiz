@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <head>
+   <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 <link href="cssquiz3.css" rel="stylesheet">
     
 <body>
 <title>AGQ: Level 1</title>
 <script  src="script.js"></script>
-<em><center><h2>The Amazing Grace Quiz</h2></center></em>
+<form action="directions.html">
+    <input type="submit" value="Back" id="back">
+</form>
+<center><h2>The Amazing Grace Quiz</h2></center>
 <center>
 <h1>Level 1:<br> EASY QUESTIONS</h1>
 <hr>
@@ -47,39 +52,45 @@
         <input type="radio" value="wrong" id="gg"><output id="result9"></output>
     <hr>
     <b><span> 3. What is Grace's number 1 anime?</span><br></b>
-    <label for="set3.1">Banana Fish</label>
-    <input type="radio" value="correct" id="bf"><br>
-    <label for="set3.2">Attack on Titan</label>
-    <input type="radio" value="wrong" id="titan"><br>
-    <label for="set3.3">Haikyuu</label>
-    <input type="radio" value="wrong" id="haikyuu">
+    <label for="bf">Banana Fish</label>
+    <input type="radio" value="correct" id="bf"><output id="result10"></output>
+
+    <br>
+    <label for="titan">Attack on Titan</label>
+    <input type="radio" value="wrong" id="titan"><output id="result11"></output>
+
+    <br>
+    <label for="haikyuu">Haikyuu</label>
+    <input type="radio" value="wrong" id="haikyuu"><output id="result12"></output>
     <hr>
+
     <b><span>4. What is NOT Grace's favorite meal?</span></b><br>
     <label for="set3.4">Swallow</label>
-        <input type="radio" value="correct" id="swallow"><br>
+        <input type="radio" value="correct" id="swallow"><output id="result13"></output>
+        <br>
     <label for="set2.2">Jollof Rice</label>
-        <input type="radio" value="wrong" id="jollof" ><br>
+        <input type="radio" value="wrong" id="jollof" ><output id="result14"></output>
+        <br>
     <label for="set2.3">French Fries</label>
-        <input type="radio" value="wrong" id="fries"><br>
+        <input type="radio" value="wrong" id="fries"><output id="result15"></output>
+        <br>
             <label for="set2.4">Alfredo Pasta</label>
-        <input type="radio" value="wrong" id="pasta">
+        <input type="radio" value="wrong" id="pasta"><output id="result16"></output>
 </form> 
     <hr>
     <br>
-    <button id="check">Check Answers</button>
+    <button id="check">Check Answers</button> <img src="minigrace.png" height = "100" width="100" id="minigrace">
+    <br>
     <br>
     <br>
 <form action="quizPage3.html">
     <input type="submit" value="Level 2">
 </form>
 </center>
+<!--
 
+-->
 </form>
 </body>
 <script src="amazingscript.js"></script>
 </head>
-
-</form>
-</body>
-</head>
-</html>
