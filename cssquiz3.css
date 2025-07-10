@@ -22,7 +22,14 @@ h1{
 output {
   font-family: cursive;
   font-size: 18px;
-  color: purple;
+  color: green;
+  font-weight: bold;
+}
+#no
+{
+    font-family: cursive;
+  font-size: 18px;
+  color: red;
   font-weight: bold;
 }
 button {
@@ -47,3 +54,4 @@ label {
   border-radius: 12px;
 
 }
+
