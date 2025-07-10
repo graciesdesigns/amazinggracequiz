@@ -54,4 +54,13 @@ label {
   border-radius: 12px;
 
 }
+#nextlevel {
+    padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(0, 162, 255);
+  border-radius: 12px;
+  color: gold;
+   font-family: "Luckiest Guy";
+
+}
 
