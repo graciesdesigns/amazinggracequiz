@@ -1,0 +1,36 @@
+body{
+background: linear-gradient(135deg, #fbcfe8, #b4fee3);
+h1, h2, h3 {
+    
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+#picture {
+  width: 450px;
+  height: auto;
+  border-radius: 12px;
+}
+
+#content {
+  max-width: 600px;
+}
+#back {
+    padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  background-color:lightpink;
+  color:black;
+  width:100%;
+}
+}

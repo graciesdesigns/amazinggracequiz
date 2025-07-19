@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+    <body>
+<link href="cssquiz3.css" rel="stylesheet">
+        <title>AGQ: Level 2</title>
+
+<form action="quizpage2.html">
+    <input type="submit" value="Back" id="back">
+</form>
+<center>
+<em><h2>The Amazing Grace Quiz</h2></em>
+<h1>Level 2:<br> MEDIUM QUESTIONS</h1>
+<hr>
+<form>
+
+
+    <b><span>5. What got Grace into wanting to program & design? (2 answers)</span></b><br>
+    <label for="ipod">Roblox</label>
+    <input type="checkbox" value="correct" id="ipod"><output id="yes"></output>
+    
+    <br>
+   <label for="tablet">Editing videos for fun</label>
+   <input type="checkbox" value="correct" id="tablet"><output id="yes"></output>
+
+   <br>
+   <label for="laptop">Minecraft</label>
+   <input type="checkbox" value="wrong" id="laptop"><output id="no"></output>
+
+   <br>
+   <label for="iphone">Just wanted the money :P</label>
+   <input type="checkbox" value="wrong"  id="iphone"><output id="no"></output>
+    <hr>
+
+
+<b><span>6. What is Grace's favorite superhero?</span></b><br>
+    <label for="sm">Superman</label>
+    <input type="radio" name="q6" value="wrong" id="sm"><output id="no"></output>
+
+    <br>
+   <label for="ww">Wonder Woman</label>
+   <input type="radio" value="wrong" name="q6" id="ww"><output id="no"></output>
+
+   <br>
+   <label for="spiderman">Spiderman</label>
+   <input type = "radio" name="q6" value = "wrong" id="spiderman"><output id="no"></output>
+
+   <br>
+   <label for="bm">Batman</label>
+   <input type="radio" name="q6" value = "correct" id="bm"><output id="yes"></output>
+<hr>
+<b><span>7. When did Grace cut her hair short to go natural?</span></b><br>
+    <label for="2018">March 2018</label>
+    <input type="radio" value="wrong" id="2018"><output id="no"></output>
+
+    <br>
+   <label for="2001">March 2001</label>
+   <input type="radio" value="wrong" id="2001"><output id="no"></output>
+
+   <br>
+   <label for="2021">March 2021</label>
+   <input type="radio" value="wrong" name="2021" id="false"><output id="no"></output>
+
+   <br>
+   <label for="2019">March 2019</label>
+   <input type="radio" value="wrong"  id="2019"><output id="no"></output>
+
+   <br>
+   <label for="2020">March 2020</label>
+   <input type="radio" value="correct" id="2020"><output id="yes"></output>
+<hr>
+
+<br>
+</form>  
+
+<div id="hintchar">
+    <img src="minigrace.png" height = "100" width="100" id="minigrace"> <!--This is a picture of my character-->
+    <h3>CLICK ME FOR HINTS!</h3>
+    </div>
+
+    <div id="hintBox" style="display: none;"> <!--The questions tha-->
+        <p id="hintMessage">What question do you want a hint for?</p>
+        <div id="questionButtons">
+            <button id="Q1" onclick = "showHint(5)">Question 5</button>
+            <button id="Q2" onclick = "showHint(6)">Question 6</button>
+            <button id="Q3" onclick = "showHint(7)">Question 7</button>
+        </div>
+    </div>
+
+<button id="check">Check Answers</button>
+<br>
+<br>
+  <form action="quizpage4.html">
+    <input type="submit" value="Level 3!" id="nextlevel">
+</form>
+</center>
+
+    </body>
+    <script src="amazingscript.js"></script>
+    <script src="hintpage2.js"></script>
+</head>
+</html>

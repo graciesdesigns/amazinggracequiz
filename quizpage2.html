@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+<link href="cssquiz3.css" rel="stylesheet">
+    
+<body>
+<title>AGQ: Level 1</title>
+<script  src="script.js"></script>
+<form action="directions.html">
+    <input type="submit" value="Back" id="back">
+</form>
+<center><h2>The Amazing Grace Quiz</h2></center>
+<center>
+<h1>Level 1:<br> EASY QUESTIONS</h1>
+<hr>
+<form>
+<b><spam> 1. Who's Grace's favorite music artist? (3 answers)</spam></b><br>
+
+<label for="party">PARTYNEXTDOOR</label>
+    <input type="checkbox" value = "correct" id = "party"><output id="yes"></output>
+    <br>
+
+        <label for="katseye">Katseye</label>
+            <input type="checkbox" value = "wrong" id="katseye"><output id="no"></output>
+                <br>
+
+        <label for="mitski">Mitski</label>
+            <input type="checkbox" value="correct" id="mitski"><output id="yes"></output>
+
+       <br>
+         <label for="tems">Tems</label> 
+            <input type ="checkbox" value="correct"  id="tems"><output id="yes"></output>
+
+        <br>
+         <label for = "ariana">Ariana Grande</label>
+            <input type = "checkbox" value = "wrong" id = "ariana"><output id="no"></output>
+         
+<hr>
+</script>
+<b><spam> 2. Grace's favorite show of all time?</spam></b><br>
+    <label for="onetreehill">One Tree Hill</label> 
+        <input type="radio" value="wrong" id="onetreehill"><output id="no"></output>
+    <br>
+    <label for="greys">Grey's Anatomy</label>
+        <input type="radio" value="correct" id="greys"><output id="yes"></output>
+    <br>
+    <label for="bb">Breaking Bad</label>
+        <input type="radio" value="wrong" id="bb"><output id="no"></output>
+    <br>
+            <label for="gg">Gilmore Girls</label>
+        <input type="radio" value="wrong" id="gg"><output id="no"></output>
+    <hr>
+    <b><span> 3. What is Grace's number 1 anime?</span><br></b>
+    <label for="bf">Banana Fish</label>
+    <input type="radio" value="correct" id="bf"><output id="yes"></output>
+
+    <br>
+    <label for="titan">Attack on Titan</label>
+    <input type="radio" value="wrong" id="titan"><output id="no"></output>
+
+    <br>
+    <label for="haikyuu">Haikyuu</label>
+    <input type="radio" value="wrong" id="haikyuu"><output id="no"></output>
+    <hr>
+
+    <b><span>4. What is NOT Grace's favorite meal?</span></b><br>
+    <label for="set3.4">Swallow</label>
+        <input type="radio" value="correct" id="swallow"><output id="yes"></output>
+        <br>
+    <label for="set2.2">Jollof Rice</label>
+        <input type="radio" value="wrong" id="jollof" ><output id="no"></output>
+        <br>
+    <label for="set2.3">French Fries</label>
+        <input type="radio" value="wrong" id="fries"><output id="no"></output>
+        <br>
+            <label for="set2.4">Alfredo Pasta</label>
+        <input type="radio" value="wrong" id="pasta"><output id="no"></output>
+</form> 
+    <hr>
+    <br>
+    <button id="check">Check Answers</button> 
+    <div id="errormes"></div>
+
+    <div id="hintchar">
+    <img src="minigrace.png" height = "100" width="100" id="minigrace"> <!--This is a picture of my character-->
+    <h3>CLICK ME FOR HINTS!</h3>
+    </div>
+
+    <div id="hintBox" style="display: none;"> <!--The questions tha-->
+        <p id="hintMessage">What question do you want a hint for?</p>
+        <div id="questionButtons">
+            <button id="Q1" onclick = "showHint(1)">Question 1</button>
+            <button id="Q2" onclick = "showHint(2)">Question 2</button>
+            <button id="Q3" onclick = "showHint(3)">Question 3</button>
+            <button id="Q4" onclick = "showHint(4)">Question 4</button>
+        </div>
+    </div>
+
+    <br> <!--This is just for space-->
+    <br>
+
+<form action="quizPage3.html">
+    <input type="submit" value="Level 2" id = "nextlevel">
+</form>
+</center>
+</form>
+</body>
+<script src="amazingscript.js"></script>
+<script src="hintpage1.js"></script>
+</head>

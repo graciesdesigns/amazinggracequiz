@@ -1,0 +1,144 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9fb;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  color: #3b82f6;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #f43f5e;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+h3 {
+  color: #f97316;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+button, #back, #nextlevel {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button {
+  background-color: #facc15;
+  color: #333;
+}
+
+#back {
+  background-color: #22c55e;
+  color: white;
+}
+
+#nextlevel {
+  background-color: #3b82f6;
+  color: white;
+}
+
+
+button:hover, #back:hover, #nextlevel:hover {
+  filter: brightness(0.9);
+}
+
+
+#yes, #no {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#yes {
+  color: #16a34a;
+}
+
+#no {
+  color: #dc2626;
+}
+
+
+#Q1, #Q2, #Q3, #Q4 {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+#Q1 { border-left: 6px solid #e11d48; }
+#Q2 { border-left: 6px solid #6366f1; }
+#Q3 { border-left: 6px solid #f97316; }
+#Q4 { border-left: 6px solid #dc2626; }
+
+#hintchar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#hintBox {
+  position: fixed;
+  bottom: 30px;
+  right: 90px;  
+  display: none;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  z-index: 1000;
+}
+
+
+
+#errormes {
+  color: #ef4444;
+  font-weight: bold;
+  margin-top: 10px;
+}

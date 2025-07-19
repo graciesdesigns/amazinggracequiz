@@ -1,0 +1,60 @@
+body {
+    background-color: deeppink;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    font-family: "Honk", cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: cursive;
+    color: gold;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkorange;
+}

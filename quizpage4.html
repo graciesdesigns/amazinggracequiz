@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+   <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+
+<link href="cssquiz3.css" rel="stylesheet">
+    
+<body>
+<title>AGQ: Level 3</title>
+<script  src="script.js"></script>
+<form action="quizPage3.html">
+    <input type="submit" value="Back" id="back">
+</form>
+<center><h2>The Amazing Grace Quiz</h2></center>
+<center>
+<h1>Level 3:<br> HARD QUESTIONS</h1>
+<hr>
+<form>
+<b><spam> 8. What track & field event did Grace do in highschool?</spam></b><br>
+
+<label for="party">Sprinting</label>
+    <input type="radio" name="q8" value = "wrong" id = "party"><output id="no"></output>
+    <br>
+
+        <label for="katseye">Shotput</label>
+            <input type="radio" name="q8" value = "wrong" id="katseye"><output id="no"></output>
+                <br>
+
+        <label for="mitski">Distance</label>
+            <input type="radio" value="correct" name="q8" id="mitski"><output id="yes"></output>
+
+       <br>
+         <label for="tems">Long Jump</label> 
+            <input type ="radio" value="wrong" name="q8"  id="tems"><output id="no"></output>
+
+        <br>
+         <label for = "ariana">High Jump</label>
+            <input type = "radio" value = "wrong" name="q8" id = "ariana"><output id="no"></output>
+         
+<hr>
+</script>
+<b><spam>9. What is Grace's blog called?</spam></b><br>
+    <label for="onetreehill">Gracie's Talks</label> 
+        <input type="radio" value="wrong" id="onetreehill"><output id="no"></output>
+    <br>
+    <label for="greys">Talks with Gracie </label>
+        <input type="radio" value="wrong" id="greys"><output id="no"></output>
+    <br>
+    <label for="bb">Grace Outspoken</label>
+        <input type="radio" value="correct" id="bb"><output id="yes"></output>
+    <br>
+            <label for="gg">Gracie Outspoken</label>
+        <input type="radio" value="wrong" id="gg"><output id="no"></output>
+    <hr>
+    <b><span> 10. How many countries has Grace been to?</span><br></b>
+    <label for="bf">2</label>
+    <input type="radio" value="correct" id="bf"><output id="yes"></output>
+
+    <br>
+    <label for="titan">5</label>
+    <input type="radio" value="wrong" id="titan"><output id="no"></output>
+
+    <br>
+    <label for="haikyuu">1</label>
+    <input type="radio" value="wrong" id="haikyuu"><output id="no"></output>
+    <hr>
+
+    <b><span> 11. Where did you find this quiz? (no wrong answer) </span></b><br>
+    <label for="set3.4">Linkdin</label>
+        <input type="radio" value="correct" id="swallow"><output id="yes"></output>
+        <br>
+    <label for="set2.2">Github</label>
+        <input type="radio" value="correct" id="jollof" ><output id="yes"></output>
+        <br>
+    <label for="set2.3">Grace just gave you the link</label>
+        <input type="radio" value="correct" id="fries"><output id="yes"></output>
+        <br>
+            <label for="set2.4">Instagram</label>
+        <input type="radio" value="correct" id="pasta"><output id="yes"></output>
+</form> 
+    <hr>
+    <br>
+    <button id="check">Check Answers</button> 
+    <div id="errormes"></div>
+
+    <div id="hintchar">
+    <img src="minigrace.png" height = "100" width="100" id="minigrace"> <!--This is a picture of my character-->
+    <h3>CLICK ME FOR HINTS!</h3>
+    </div>
+
+    <div id="hintBox" style="display: none;"> <!--The questions tha-->
+        <p id="hintMessage">What question do you want a hint for?</p>
+        <div id="questionButtons">
+            <button id="Q1" onclick = "showHint(8)">Question 8</button>
+            <button id="Q2" onclick = "showHint(9)">Question 9</button>
+            <button id="Q3" onclick = "showHint(10)">Question 10</button>
+        </div>
+    </div>
+
+    <br> <!--This is just for space-->
+    <br>
+
+<form action="lastPage.html">
+    <input type="submit" value="Finish Quiz!!" id = "nextlevel">
+</form>
+</center>
+</form>
+</body>
+<script src="amazingscript.js"></script>
+<script src="hintpage3.js"></script>
+</head>
